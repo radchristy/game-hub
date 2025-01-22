@@ -6,11 +6,15 @@ GameHub is a video game discovery web application designed to help you explore n
 
 ### Game Discovery
 
-* **Search by Platform:** Filter games by platform (PC, PlayStation, Xbox, etc.).
+* **Filter Games by Platform:** Filter games by platform (PC, PlayStation, Xbox, etc.).
 
-* **Search by Genre:** Explore games by genres like Action, Adventure, and RPG.
+* **Explore by Genre:** Explore games by genres like Action, Adventure, and RPG.
 
-* **Real-Time Data:** Powered by the [RAWG API](https://rawg.io/apidocs), GameHub delivers up-to-date game information directly to your browser.
+* **Order by:** Order games by relevance, popularity, release date, and more.
+
+* **Search for Specific Titles:** Search for specific games and access detailed information, including ratings, descriptions, and more.
+
+* **Real-Time Data:** Powered by the [RAWG API](https://rawg.io/apidocs), GameHub delivers up-to-date game information directly to your browser using React Query for efficient data fetching and caching.
 
 ## Modern Front-End Design
 
@@ -19,11 +23,17 @@ GameHub is a video game discovery web application designed to help you explore n
 * **Reusable Components:** Built for efficiency and maintainability.
 
 * **Dynamic Styling:** Styled with Chakra UI and Bootstrap.
+  
 ## Advanced Form Handling
 
-* **React Hook Forms:** Simplified form management.
+* **React Hook Forms & Zod Validation:** Simplified form management with robust schema-based validation, ensuring accurate user inputs.
 
-* **Zod Validation:** Robust schema-based form validation.
+## State Management
+
+* **Zustand:** Lightweight global state management for managing application state efficiently.
+
+## Routing and Navigation
+* **React Router:** Enables seamless client-side navigation for a smooth user experience.
 
 ## Integration and Deployment
 
@@ -31,17 +41,17 @@ GameHub is a video game discovery web application designed to help you explore n
 
 * **Production-Ready:** Fully deployable for live environments.
 
-## Development Highlights
-
-* **React & TypeScript:** Scalable and type-safe development.
-
-* **State Management:** Dynamic and efficient state handling.
-
 ## Technologies Used
 
 * **React**
 
 * **TypeScript**
+
+* **React Query**
+
+* **Zustand**
+
+* **React Router**
 
 * **RAWG API**
 
