@@ -16,8 +16,10 @@ const HomePage = () => {
         base: "1fr",
         lg: "200px 1fr",
       }}
+      maxWidth="100vw"
+      overflowX="hidden"
     >
-      <Show>
+      <Show above="lg">
         <GridItem area="aside" paddingX="5px">
           <GenreList />
         </GridItem>
