@@ -2,6 +2,7 @@
 
 GameHub is a video game discovery web application designed to help you explore new and interesting games tailored to your preferences. With GameHub, you can search for games by platform, genre, and more, making it easier than ever to find your next favorite game.
 
+
 ## Features
 
 ### Game Discovery
@@ -15,6 +16,8 @@ GameHub is a video game discovery web application designed to help you explore n
 * **Search for Specific Titles:** Search for specific games and access detailed information, including ratings, descriptions, and more.
 
 * **Real-Time Data:** Powered by the [RAWG API](https://rawg.io/apidocs), GameHub delivers up-to-date game information directly to your browser using React Query for efficient data fetching and caching.
+
+<img width="1440" alt="Screenshot 2025-01-08 at 3 05 19 PM" src="https://github.com/user-attachments/assets/e96ad5bf-3316-44cb-a02d-3c495f444faf" />
 
 ## Modern Front-End Design
 
@@ -62,6 +65,6 @@ GameHub is a video game discovery web application designed to help you explore n
 * **Chakra UI**
 
 * **Bootstrap**
-<img width="1440" alt="Screenshot 2025-01-08 at 3 05 19 PM" src="https://github.com/user-attachments/assets/e96ad5bf-3316-44cb-a02d-3c495f444faf" />
+
 
 
